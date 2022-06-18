@@ -9,7 +9,10 @@ const ComputerVisionClient = require('@azure/cognitiveservices-computervision').
 const ApiKeyCredentials = require('@azure/ms-rest-js').ApiKeyCredentials;
 const ejs = require("ejs");
 var data;
-
+const dir = "uploads";
+if(!fs.existsSync(dir) ){
+  fs.mkdirSync(dir);
+}
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
       cb(null, "uploads");
