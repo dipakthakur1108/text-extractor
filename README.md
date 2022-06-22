@@ -1,12 +1,11 @@
 # text-extractor
-This is a simple app for extracting text from an images using Azure computer vision ocr.
+This is a simple app for extracting text from an image using Azure computer vision ocr.
 
 
 Input requirements:
-
-Supported image formats: JPEG, PNG and GIF.
-Image file size must be less than 4MB.
-Image dimensions must be between 50 x 50 and 4200 x 4200 pixels, and the image cannot be larger than 10 megapixels.
+Supported image formats: i)JPEG, PNG and GIF.
+ii)Image file size must be less than 4MB.
+iii)Image dimensions must be between 50 x 50 and 4200 x 4200 pixels, and the image cannot be larger than 10 megapixels.
 
 Supported languages:
 
