@@ -1,4 +1,6 @@
 # text-extractor
+This is a simple app for extracting text from an images using Azure computer vision ocr.
+
 
 Input requirements:
 
@@ -35,3 +37,7 @@ ro (Romanian)
 sr-Cyrl (SerbianCyrillic)
 sr-Latn (SerbianLatin)
 sk (Slovak)
+
+App deploy using Microsoft azure web app service.
+
+To see the website visit https://text-extractor1.azurewebsites.net
